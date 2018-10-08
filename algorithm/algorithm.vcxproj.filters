@@ -26,11 +26,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="i_func.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="chapter_1.h">
       <Filter>源文件\chapter_1</Filter>
+    </ClInclude>
+    <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
