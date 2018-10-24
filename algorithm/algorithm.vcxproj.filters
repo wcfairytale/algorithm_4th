@@ -16,6 +16,9 @@
     <Filter Include="源文件\chapter_1">
       <UniqueIdentifier>{91959da2-f82e-4c0c-ac38-646e04e9bbc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{ef8c60c5-4a1b-4286-96f8-874d4d29a804}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,6 +27,18 @@
     <ClCompile Include="chapter_1.cpp">
       <Filter>源文件\chapter_1</Filter>
     </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="test_data_gen.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_x.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_1.h">
@@ -31,6 +46,21 @@
     </ClInclude>
     <ClInclude Include="public.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="test_data_gen.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="easy_x.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>源文件\utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

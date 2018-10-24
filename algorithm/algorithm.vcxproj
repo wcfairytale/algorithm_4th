@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,11 +119,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chapter_1.cpp" />
+    <ClCompile Include="easy_x.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="test_data_gen.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_1.h" />
+    <ClInclude Include="easy_x.h" />
+    <ClInclude Include="math.h" />
     <ClInclude Include="public.h" />
+    <ClInclude Include="test_data_gen.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
