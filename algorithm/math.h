@@ -5,6 +5,11 @@
 
 using namespace std;
 
+#define PI		3.1415926
+#define PI_2	6.2831853
+
+bool double_equal(double a, double b, double threshold = 0.001);
+
 class EasyVector
 {
 public:

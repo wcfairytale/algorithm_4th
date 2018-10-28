@@ -1,5 +1,10 @@
 #include "math.h"
 
+bool double_equal(double a, double b, double threshold)
+{
+	return fabs(a - b) < threshold;
+}
+
 double VectorDot(CEasyVector vec_a, CEasyVector vec_b)
 {
 	if (vec_a.size() != vec_b.size())

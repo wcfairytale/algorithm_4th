@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-	srand((unsigned int)time(NULL));
+	init_rng();
 
-	Exercise_1_1_33();
+	Exercise_1_1_39();
 
 	return 0;
 }

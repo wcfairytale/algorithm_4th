@@ -39,6 +39,12 @@
     <ClCompile Include="math.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_1.h">
@@ -60,6 +66,9 @@
       <Filter>源文件\utils</Filter>
     </ClInclude>
     <ClInclude Include="math.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
   </ItemGroup>

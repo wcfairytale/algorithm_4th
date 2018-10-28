@@ -20,3 +20,9 @@ void Exercise_1_1_27();
 void Exercise_1_1_31();
 void Exercise_1_1_32();
 void Exercise_1_1_33();
+
+// Experiments
+void Exercise_1_1_35();
+void Exercise_1_1_36();
+void Exercise_1_1_38();
+void Exercise_1_1_39();
