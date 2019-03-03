@@ -1,13 +1,12 @@
 #include "chapter_1.h"
-#include "utils.h"
+#include "chapter_2.h"
+#include "utils/utils.h"
 
 using namespace std;
 
 int main()
 {
-	init_rng();
-
-	Exercise_1_1_39();
+	Exercise_1_2_16();
 
 	return 0;
 }

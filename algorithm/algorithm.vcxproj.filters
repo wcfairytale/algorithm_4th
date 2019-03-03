@@ -9,15 +9,17 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="源文件\chapter_1">
       <UniqueIdentifier>{91959da2-f82e-4c0c-ac38-646e04e9bbc6}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\utils">
       <UniqueIdentifier>{ef8c60c5-4a1b-4286-96f8-874d4d29a804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter_2">
+      <UniqueIdentifier>{fcbb97e7-9837-423f-8632-d19f03a500d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\adts">
+      <UniqueIdentifier>{a1a8fee4-41b3-41c9-8353-84ea53b2dd4d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,23 +29,38 @@
     <ClCompile Include="chapter_1.cpp">
       <Filter>源文件\chapter_1</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="chapter_2.cpp">
+      <Filter>源文件\chapter_2</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\easy_x.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
-    <ClCompile Include="test_data_gen.cpp">
+    <ClCompile Include="utils\math.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
-    <ClCompile Include="easy_x.cpp">
+    <ClCompile Include="utils\timer.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
-    <ClCompile Include="math.cpp">
+    <ClCompile Include="utils\utils.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm.cpp">
+    <ClCompile Include="utils\algorithm.cpp">
       <Filter>源文件\utils</Filter>
     </ClCompile>
-    <ClCompile Include="timer.cpp">
+    <ClCompile Include="utils\random.cpp">
       <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="adts\interval.cpp">
+      <Filter>源文件\adts</Filter>
+    </ClCompile>
+    <ClCompile Include="adts\point.cpp">
+      <Filter>源文件\adts</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\string.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="adts\rational.cpp">
+      <Filter>源文件\adts</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,23 +70,38 @@
     <ClInclude Include="public.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="chapter_2.h">
+      <Filter>源文件\chapter_2</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\easy_x.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
-    <ClInclude Include="timer.h">
+    <ClInclude Include="utils\math.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
-    <ClInclude Include="test_data_gen.h">
+    <ClInclude Include="utils\timer.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
-    <ClInclude Include="easy_x.h">
+    <ClInclude Include="utils\utils.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
-    <ClInclude Include="math.h">
+    <ClInclude Include="utils\algorithm.h">
       <Filter>源文件\utils</Filter>
     </ClInclude>
-    <ClInclude Include="algorithm.h">
+    <ClInclude Include="utils\random.h">
       <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="adts\interval.h">
+      <Filter>源文件\adts</Filter>
+    </ClInclude>
+    <ClInclude Include="adts\point.h">
+      <Filter>源文件\adts</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\string.h">
+      <Filter>源文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="adts\rational.h">
+      <Filter>源文件\adts</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

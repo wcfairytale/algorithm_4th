@@ -1,5 +1,5 @@
 #include "chapter_1.h"
-#include "utils.h"
+#include "utils/utils.h"
 
 void Exercise_1_1_1()
 {
@@ -150,7 +150,7 @@ void Exercise_1_1_18()
 
 	//auto_timer timer;
 
-	cout << mystery2(a, b);
+	cout << mystery(a, b);
 }
 
 static int fibonacci_note[1000];
